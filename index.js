@@ -68,7 +68,7 @@ scene.add(sphere);
 
 const sphereShape = new CANNON.Box(new CANNON.Vec3(0.5, 0.5, 0.5));
 const sphereBody = new CANNON.Body({
-  mass: 10,
+  mass: 10000,
   shape: sphereShape,
   position: new CANNON.Vec3(0, 0, 0),
   material: new CANNON.Material({ restitution: 0.3, friction: 0.3 })
